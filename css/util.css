@@ -1,0 +1,67 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+  background-color: #FFFFFF;
+}
+
+nav.sy-nav {
+  border-bottom: solid 1px rgb(255,255,255, 0.1);
+  width: 100%;
+}
+
+.sy-nav {
+  position: fixed;
+  z-index: 999;
+}
+
+.sy-nav.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.sy-nav.scrolled .nav-link {
+  color:#555;
+}
+
+.sy-nav .nav-item a {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.sy-nav .nav-item a:hover {
+  color: #26c1dc;
+}
+
+.sy-nav a {
+  color: #ffffff;
+}
+
+.sy-nav .navbar-brand {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sy-relative {
+  position: relative;
+}
+
+.sy-conatainer {
+  min-width: 100vw;
+  margin: 0 auto;
+  min-height: 92vh;
+  background-color: #F5F5F5;
+}
+
+.min-height70 {
+  min-height: 70vh;
+}
+
+.responsive-img {
+  width: 100%;
+  height: 100%;
+}
